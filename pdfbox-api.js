@@ -24,7 +24,6 @@
 
 /*  internal requirements  */
 const path           = require("path")
-const fs             = require("mz/fs")
 
 /*  external requirements  */
 const which          = require("which")

@@ -32,6 +32,7 @@ const PDFBox = require("./pdfbox-api.js")
     let args = process.argv.slice(2)
     await pdfbox.exec(...args)
 })().catch((err) => {
-    console.log(`pdfbox: ERROR: ${err}`)
+    process.stderr.write(`pdfbox: ERROR: ${err}\n`)
+    process.exit(1)
 })
 
