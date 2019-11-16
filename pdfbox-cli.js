@@ -29,7 +29,7 @@ const PDFBox = require("./pdfbox-api.js")
     const pdfbox = new PDFBox()
     pdfbox.on("stdout", (data) => { process.stdout.write(data) })
     pdfbox.on("stderr", (data) => { process.stderr.write(data) })
-    let args = process.argv.slice(2)
+    const args = process.argv.slice(2)
     await pdfbox.exec(...args)
 })().catch((err) => {
     process.stderr.write(`pdfbox: ERROR: ${err}\n`)
