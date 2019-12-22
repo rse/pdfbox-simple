@@ -21,20 +21,20 @@
     "bugs":     "https://github.com/rse/pdfbox-simple/issues",
     "devDependencies": {
         "babel-eslint":            "10.0.3",
-        "eslint":                  "6.7.1",
+        "eslint":                  "6.8.0",
         "eslint-config-standard":  "14.1.0",
         "eslint-plugin-standard":  "4.0.1",
         "eslint-plugin-promise":   "4.2.1",
-        "eslint-plugin-import":    "2.18.2",
+        "eslint-plugin-import":    "2.19.1",
         "eslint-plugin-node":      "10.0.0",
         "tslint":                  "5.20.1",
-        "typescript":              "3.7.2"
+        "typescript":              "3.7.4"
     },
     "dependencies": {
-        "npm-install-fetch":       "1.0.8",
+        "npm-install-fetch":       "1.0.9",
         "which":                   "2.0.2",
         "eventemitter3":           "4.0.0",
-        "execa":                   "3.4.0"
+        "execa":                   "4.0.0"
     },
     "engines": {
         "node":                    ">=8.0.0"
@@ -46,7 +46,7 @@
     },
     "npm-install-fetch": {
         "name":    "Apache PDFBox 2.0.17 [8 MB]",
-        "input":   "http://www-eu.apache.org/dist/pdfbox/2.0.17/pdfbox-app-2.0.17.jar",
+        "input":   "http://archive.apache.org/dist/pdfbox/2.0.17/pdfbox-app-2.0.17.jar",
         "output":  "pdfbox-cli.jar"
     }
 }
