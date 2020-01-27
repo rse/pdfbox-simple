@@ -26,7 +26,7 @@ declare class PDFBox {
     constructor(options?: {
         javaBinary?: string   /* default: "/usr/opkg/bin/java" */
         javaOptions?: string  /* default: "-server -Xms1G -Xmx1G" */
-        pdfboxJar?: string    /* default: "${__dirname}/pdfbox.jar" */
+        pdfboxJar?: string    /* default: "${__dirname}/pdfbox-cli.jar" */
     })
 
     public on(
