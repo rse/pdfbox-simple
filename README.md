@@ -15,7 +15,7 @@ About
 
 This is a small JavaScript library for use in Node.js environments,
 providing the possibility to run the Java-based [Apache
-PDFBox](https://pdfbox.apache.org/) tool fronm within a JavaScript API.
+PDFBox](https://pdfbox.apache.org/) tool from within a JavaScript API.
 
 NOTICE
 ------
