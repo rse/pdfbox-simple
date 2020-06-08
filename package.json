@@ -45,8 +45,8 @@
         "test":           "node sample.js"
     },
     "npm-install-fetch": {
-        "name":    "Apache PDFBox 2.0.19 [8 MB]",
-        "input":   "http://archive.apache.org/dist/pdfbox/2.0.19/pdfbox-app-2.0.19.jar",
+        "name":    "Apache PDFBox 2.0.20 [8 MB]",
+        "input":   "http://archive.apache.org/dist/pdfbox/2.0.20/pdfbox-app-2.0.20.jar",
         "output":  "pdfbox-cli.jar"
     }
 }
