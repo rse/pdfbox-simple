@@ -21,23 +21,23 @@
     "bugs":     "https://github.com/rse/pdfbox-simple/issues",
     "devDependencies": {
         "babel-eslint":            "10.1.0",
-        "eslint":                  "7.4.0",
+        "eslint":                  "7.7.0",
         "eslint-config-standard":  "14.1.1",
         "eslint-plugin-standard":  "4.0.1",
         "eslint-plugin-promise":   "4.2.1",
         "eslint-plugin-import":    "2.22.0",
         "eslint-plugin-node":      "11.1.0",
-        "tslint":                  "6.1.2",
-        "typescript":              "3.9.7"
+        "tslint":                  "6.1.3",
+        "typescript":              "4.0.2"
     },
     "dependencies": {
         "npm-install-fetch":       "1.2.5",
         "which":                   "2.0.2",
-        "eventemitter3":           "4.0.4",
+        "eventemitter3":           "4.0.7",
         "execa":                   "4.0.3"
     },
     "engines": {
-        "node":                    ">=8.0.0"
+        "node":                    ">=10.0.0"
     },
     "scripts": {
         "prepublishOnly": "eslint --config eslint.yaml pdfbox-*.js && tslint --config tslint.json pdfbox-*.d.ts",
@@ -45,8 +45,8 @@
         "test":           "node sample.js"
     },
     "npm-install-fetch": {
-        "name":    "Apache PDFBox 2.0.20 [8 MB]",
-        "input":   "http://archive.apache.org/dist/pdfbox/2.0.20/pdfbox-app-2.0.20.jar",
+        "name":    "Apache PDFBox 2.0.21 [8 MB]",
+        "input":   "http://archive.apache.org/dist/pdfbox/2.0.21/pdfbox-app-2.0.21.jar",
         "output":  "pdfbox-cli.jar"
     }
 }
