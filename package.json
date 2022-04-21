@@ -20,7 +20,6 @@
     "homepage": "https://github.com/rse/pdfbox-simple",
     "bugs":     "https://github.com/rse/pdfbox-simple/issues",
     "devDependencies": {
-        "babel-eslint":            "10.1.0",
         "eslint":                  "8.13.0",
         "eslint-config-standard":  "17.0.0",
         "eslint-plugin-import":    "2.26.0",
