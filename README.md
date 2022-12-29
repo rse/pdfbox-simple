@@ -35,9 +35,10 @@ Usage
 -----
 
 ```js
+const PDFBox = require("pdfbox-simple")
+const pdfbox = new PDFBox()
+
 (async () => {
-    const PDFBox = require("pdfbox")
-    const pdfbox = new PDFBox()
     await pdfbox.exec("PDFMerger", "foo.pdf", "bar.pdf", "quux.pdf")
 })().catch((err) => {
     console.log(`ERROR: ${err}`)
