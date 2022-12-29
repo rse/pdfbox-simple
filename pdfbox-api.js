@@ -44,14 +44,9 @@ class PDFBox extends EventEmitter {
     }
     async exec (...args) {
         /*  resolve path to Java binary  */
-        const javaBinary = await new Promise((resolve, reject) => {
-            which(this.options.javaBinary, (error, filename) => {
-                if (error)
-                    reject(new Error("unable to find mandatory Java binary " +
-                        `"${this.options.javaBinary}" in your $PATH`))
-                else
-                    resolve(filename)
-            })
+        const javaBinary = await which(this.options.javaBinary).catch(() => {
+            throw new Error("unable to find mandatory Java binary " +
+                `"${this.options.javaBinary}" in your $PATH`)
         })
         const result = { code: -1, stdout: "", stderr: "" }
         return new Promise((resolve, reject) => {
