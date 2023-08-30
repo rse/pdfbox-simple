@@ -3,13 +3,13 @@
     "version":     "1.4.0",
     "description": "Simple Apache PDFBox Wrapper",
     "keywords":    [ "pdfbox", "wrapper" ],
-    "main":        "./pdfbox-api.js",
+    "main":        "pdfbox-api.js",
     "bin": {
-        "pdfbox":  "./pdfbox-cli.js"
+        "pdfbox":  "pdfbox-cli.js"
     },
     "repository": {
         "type": "git",
-        "url":  "https://github.com/rse/pdfbox-simple.git"
+        "url":  "git+https://github.com/rse/pdfbox-simple.git"
     },
     "author": {
         "name":  "Dr. Ralf S. Engelschall",
