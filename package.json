@@ -1,6 +1,6 @@
 {
     "name":        "pdfbox-simple",
-    "version":     "1.3.2",
+    "version":     "1.4.0",
     "description": "Simple Apache PDFBox Wrapper",
     "keywords":    [ "pdfbox", "wrapper" ],
     "main":        "./pdfbox-api.js",
