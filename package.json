@@ -43,8 +43,8 @@
         "test":           "node sample.js"
     },
     "npm-install-fetch": {
-        "name":    "Apache PDFBox 3.0.5 [12 MB]",
-        "input":   "http://archive.apache.org/dist/pdfbox/3.0.5/pdfbox-app-3.0.5.jar",
+        "name":    "Apache PDFBox 3.0.6 [12 MB]",
+        "input":   "http://archive.apache.org/dist/pdfbox/3.0.6/pdfbox-app-3.0.6.jar",
         "output":  "pdfbox-cli.jar"
     }
 }
